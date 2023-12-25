@@ -10,7 +10,7 @@ spec:
   project: default
   source:
     path: nginx
-    repoURL: https://github.com/iliasnaamane/nginx-demo.git
+    repoURL: https://github.com/iliasnaamane/argocd-demo.git
     targetRevision: HEAD
   syncPolicy:
     automated:
