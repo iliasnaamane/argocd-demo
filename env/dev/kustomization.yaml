@@ -4,7 +4,7 @@ kind: Kustomization
 namespace: dev
 namePrefix: dev-
 
-resources:
+bases:
 - ../../base
 
 patchesStrategicMerge:
