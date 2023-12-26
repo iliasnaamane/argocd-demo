@@ -8,4 +8,4 @@ bases:
 - ../../base
 
 patchesStrategicMerge:
-- nginx.yaml
+- deployment.yaml
