@@ -1,11 +1,11 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: test-demo
+  name: dev-demo
   namespace: argocd
 spec:
   destination:
-    namespace: test
+    namespace: dev
     server: https://kubernetes.default.svc
   project: default
   source:
