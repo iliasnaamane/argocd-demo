@@ -1,0 +1,13 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment
+spec:
+  replicas: 6
+  template:
+    spec:
+      containers:
+      - name: nginx
+        env: 
+        - name: ENV
+          value: "production"
